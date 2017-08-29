@@ -8,7 +8,15 @@ import java.util.Scanner;
 
 public class Calculator{
     public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        calculator.run();
+    }
 
+    public Calculator(){
+
+    }
+
+    public void run(){
         int option;
         double arg_1;
         double arg_2;
